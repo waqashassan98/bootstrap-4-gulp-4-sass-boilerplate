@@ -1,94 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="Ferdinand Tugano" />
-    <link rel="icon" href="favicon.ico" />
 
-    <title>Bootstrap Stater</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="Ferdinand Tugano" />
+  <link rel="icon" href="favicon.ico" />
 
-    <!-- Icons for this template -->
-    <link
-      href="assets/fonts/font-awesome/css/all.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Stylesheet -->
-    <!-- build:css -->
-    <link href="assets/css/app.css" rel="stylesheet" />
-    <!-- endbuild -->
-  </head>
+  <title>Bootstrap Stater</title>
 
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-            <i class="fas fa-search" aria-hidden="true"></i> Search
+  <!-- Icons for this template -->
+  <link href="assets/fonts/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+  <!-- Stylesheet -->
+  <!-- build:css -->
+  <link href="assets/css/app.css" rel="stylesheet" />
+  <!-- endbuild -->
+</head>
+
+<body>
+
+
+
+  <div class="site" id="page">
+    <!-- ******************* The Navbar Area ******************* -->
+    <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+      <a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
+        <div class="container">
+          <!-- Your site title as branding in the menu -->
+          <a class="navbar-brand" rel="home" href="http://dev.first8memphis.com/" title="First8Memphis"
+            itemprop="url">First8Memphis</a>
+          <!-- end custom logo -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-        </form>
-      </div>
-    </nav>
+          <!-- The WordPress Menu goes here -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+                <i class="fas fa-search" aria-hidden="true"></i> Search
+              </button>
+            </form>
+          </div>
+        </div><!-- .container -->
+      </nav><!-- .site-navigation -->
+    </div><!-- #wrapper-navbar end -->
 
-    <main role="main" class="container">
-      <div class="jumbotron text-center">
-        <img src="assets/img/logo.png" />
-        <h1>Bootstrap 4 Starter Template</h1>
-        <p class="lead">This example is a quick bootstrap starter template.</p>
-        <a
-          class="btn btn-lg btn-primary"
-          href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
-          role="button"
-          target="_blank"
-          >View Bootstrap 4 Docs &raquo;</a
-        >
-      </div>
-    </main>
+    <div class="wrapper" id="page-wrapper">
+      <div class="container" id="content" tabindex="-1">
+        <div class="row">
+          <!-- Do the left sidebar check -->
+          <div class="col-md content-area" id="primary">
+            <main class="site-main" id="main">
+              <article class="post-2 page type-page status-publish hentry" id="post-2">
+                <header class="entry-header">
+                  <h1 class="entry-title">Sample Page</h1>
+                </header><!-- .entry-header -->
+                
+                <div class="entry-content">
+                  <p>This is an example page. It&#8217;s different from a blog post because it will stay in one place
+                    and will show up in your site navigation (in most themes). Most people start with an About page that
+                    introduces them to potential site visitors. It might say something like this:</p>
 
-    <!-- Bootstrap core JavaScript
+                  <blockquote class="wp-block-quote">
+                    <p>Hi there! I&#8217;m a bike messenger by day, aspiring actor by night, and this is my website. I
+                      live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin&#8217;
+                      caught in the rain.)</p>
+                  </blockquote>
+
+                  <p>&#8230;or something like this:</p>
+                  <blockquote class="wp-block-quote">
+                    <p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the
+                      public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of
+                      awesome things for the Gotham community.</p>
+                  </blockquote>
+
+                  <p>As a new WordPress user, you should go to <a href="http://dev.first8memphis.com/wp-admin/">your
+                      dashboard</a> to delete this page and create new pages for your content. Have fun!</p>
+
+                </div><!-- .entry-content -->
+                <footer class="entry-footer">
+                </footer><!-- .entry-footer -->
+              </article><!-- #post-## -->
+            </main><!-- #main -->
+            <!-- Do the right sidebar check -->
+          </div><!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
+
+          <div class="col-md-4 widget-area" id="right-sidebar" role="complementary">
+            <aside id="search-2" class="widget widget_search">
+              <form method="get" id="searchform" action="http://dev.first8memphis.com/" role="search">
+                <label class="sr-only" for="s">Search</label>
+                <div class="input-group">
+                  <input class="field form-control" id="s" name="s" type="text" placeholder="Search &hellip;" value="">
+                  <span class="input-group-append">
+                    <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit" value="Search">
+                  </span>
+                </div>
+              </form>
+            </aside>
+            <aside id="recent-posts-2" class="widget widget_recent_entries">
+              <h3 class="widget-title">Recent Posts</h3>
+              <ul>
+                <li>
+                  <a href="http://dev.first8memphis.com/2019/07/09/hello-world/">Hello world!</a>
+                </li>
+              </ul>
+            </aside>
+            <aside id="recent-comments-2" class="widget widget_recent_comments">
+              <h3 class="widget-title">Recent Comments</h3>
+              <ul id="recentcomments">
+                <li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/'
+                      rel='external nofollow' class='url'>A WordPress Commenter</a></span> on <a
+                    href="http://dev.first8memphis.com/2019/07/09/hello-world/#comment-1">Hello world!</a></li>
+              </ul>
+            </aside>
+            <aside id="archives-2" class="widget widget_archive">
+              <h3 class="widget-title">Archives</h3>
+              <ul>
+                <li><a href='http://dev.first8memphis.com/2019/07/'>July 2019</a></li>
+              </ul>
+            </aside>
+            <aside id="categories-2" class="widget widget_categories">
+              <h3 class="widget-title">Categories</h3>
+              <ul>
+                <li class="cat-item cat-item-1"><a
+                    href="http://dev.first8memphis.com/category/uncategorized/">Uncategorized</a>
+                </li>
+              </ul>
+            </aside>
+            <aside id="meta-2" class="widget widget_meta">
+              <h3 class="widget-title">Meta</h3>
+              <ul>
+                <li><a href="http://dev.first8memphis.com/wp-login.php">Log in</a></li>
+                <li><a href="http://dev.first8memphis.com/feed/">Entries <abbr
+                      title="Really Simple Syndication">RSS</abbr></a></li>
+                <li><a href="http://dev.first8memphis.com/comments/feed/">Comments <abbr
+                      title="Really Simple Syndication">RSS</abbr></a></li>
+                <li><a href="https://wordpress.org/"
+                    title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a>
+                </li>
+              </ul>
+            </aside>
+          </div><!-- #right-sidebar -->
+        </div><!-- .row -->
+
+      </div><!-- #content -->
+
+    </div><!-- #page-wrapper -->
+
+    <div class="wrapper" id="wrapper-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <footer class="site-footer" id="colophon">
+              <div class="site-info">
+                <a href="http://wordpress.org/">Proudly powered by WordPress</a><span class="sep"> | </span>Theme:
+                UnderStrap by <a href="http://understrap.com">understrap.com</a>.(Version: 0.9.4)
+              </div><!-- .site-info -->
+            </footer><!-- #colophon -->
+          </div>
+          <!--col end -->
+        </div><!-- row end -->
+      </div><!-- container end -->
+    </div><!-- wrapper end -->
+  </div><!-- #page we need this extra closing tag here -->
+
+  <!-- Bootstrap core JavaScript
 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/vendor/jquery.slim.min.js"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <!-- build:js -->
-    <script src="assets/js/app.js"></script>
-    <!-- endbuild -->
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/vendor/jquery.slim.min.js"></script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <!-- build:js -->
+  <script src="assets/js/app.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
